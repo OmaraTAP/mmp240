@@ -1,0 +1,28 @@
+  body{
+    font-family: Arial;
+    font-size: 1rem;
+    line-height: 1.7em;
+    background-color: #cff9ff;
+  }
+
+  p{
+    text-align: center;
+  }
+
+  h1, h2{
+    font-family: Georgia;
+    font-size: 1.6rem;
+    text-align: left;
+  }
+
+  h1{
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
