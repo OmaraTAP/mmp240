@@ -1,0 +1,121 @@
+  *{
+    margin:0;
+    padding:0;
+    border:none;
+  }
+  body{
+    font-family: Roboto;
+    background-color: #4F0606;
+    color: #FFFFFF;
+  }
+
+  p, h2, h3{
+    margin-bottom:1em;
+  }
+
+  p{
+    line-height: 1.6em;
+  }
+
+
+  #wrapper {
+    max-width: 1200px;
+    margin-left:auto;
+    margin-right: auto;
+  }
+
+
+  header{
+    background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 29%, rgba(0,0,0,0) 38%),
+    url("../images/optimizedbanner.jpg") no-repeat top right,
+    black;
+    padding:2em;
+    height:300px;
+  }
+
+
+  h1 img{
+    max-width:30%;
+  }
+
+  a{
+    color:#FFFFFF;
+  }
+
+  a:hover{
+    color:#bale18;
+  }
+
+  .lead{
+    width:29%;
+    line-height:1.5em;
+    color:#FFFFFF;
+  }
+
+  a.btn{
+    background-color:#383f45;
+    padding:0.5em;
+    border-radius: 5px;
+    color:#FFFFFF;
+    text-decoration: none;
+  }
+
+  .navbar{
+    background-color:#000000;
+    padding: 1em;
+  }
+
+  .navbar li:last-child{
+    border:none;
+  }
+
+  .navbar li{
+    display:inline-block;
+    margin-right:2em;
+    border-right:solid 1px #FFFFFF;
+    padding-right: 2em;
+  }
+
+  .navbar a{
+    color:#FFFFFF;
+    text-decoration:none;
+  }
+
+  .navbar a:hover{
+    color:red;
+  }
+
+  .left-col{
+    float:left;
+    width:66%;
+  }
+
+  .right-col{
+    float: right;
+    width: 30%;
+    padding: 1em;
+  }
+
+  footer{
+    clear:both;
+  }
+
+  main{
+    margin-top:1em;
+  }
+
+  .episodes{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between them;
+  }
+
+  .episode-card{
+    flex: 1 0 3;
+    width:400px;
+    margin: 0 5.5em;
+  }
+
+  .responsive-img{
+    width: 100%
+  }
