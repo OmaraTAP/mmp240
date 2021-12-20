@@ -1,0 +1,289 @@
+  *{
+    margin:0;
+    padding:0;
+    border:none;
+  }
+
+  #wrapper {
+    max-width: 1200px;
+    margin-left:auto;
+    margin-right: auto;
+  }
+
+
+
+
+
+  h1{
+    margin-top: 1em;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 900;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-family: inherit;
+    font-weight: 650;
+  }
+
+  body p{
+    font-size: 16px;
+    font-family: sans-serif;
+  }
+
+
+
+
+
+
+
+
+
+
+  .topnav{
+    font-family: sans-serif;
+    font-size: 16px;
+  }
+
+  .topnav ul{
+    display: inline-flex;
+    list-style:none;
+    padding: 0em;
+  }
+  .topnav ul li{
+    margin-top:1em;
+    padding: 1em;
+    text-align: right;
+  }
+
+  .topnav a{
+    display: block;
+    color: black;
+    text-decoration: none;
+  }
+
+  .topnav li li a{
+    background-color: white;
+    color: black;
+  }
+
+  .topnav a:hover{
+    background: pink;
+  }
+
+  .topnav li ul{
+    display: none;
+  }
+
+  .topnav li:hover ul{
+    display: block;
+  }
+
+
+
+
+
+
+
+
+
+  .navbar{
+    border:solid 1px black;
+    font-family: sans-serif;
+    padding:50px;
+    border-radius: 10px;
+    margin:0em;
+    margin-top: 2em;
+    margin-bottom: 5em;
+  }
+
+  .navbar p{
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+
+  .navbar li img{
+    float: right;
+    width: 15px;
+  }
+
+
+  .navbar ul{
+    display: inline-flex;
+    list-style:none;
+    padding: 0em;
+    width: 100%;
+  }
+
+  .navbar ul li{
+    padding: 0px;
+    margin:5px;
+    width: 100%;
+  }
+
+  .navbar a{
+    display: block;
+    padding: 1em;
+    background-color: #386B99;
+    border-bottom: solid 1px #386B99;
+    color: white;
+    text-decoration: none;
+  }
+
+  .navbar li li a{
+    background-color: white;
+    color: black;
+  }
+
+  .navbar li li a:hover{
+    background-color: pink;
+    color: black;
+  }
+
+  .navbar li ul{
+    display: none;
+  }
+
+  .navbar li:hover ul{
+    display: block;
+  }
+
+
+
+
+
+
+
+  .banner{
+    width: 100%;
+  }
+
+  .bannerandbutton{
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+
+  .bannerandbutton p{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: pink;
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+  }
+
+  .btn {
+    display: block;
+    padding: 1em;
+    background-color: #2E399E;
+    border-bottom: solid 1px #386B99;
+    color: white;
+    text-decoration: none;
+    width: 10%;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+  }
+
+
+
+
+
+
+  main{
+    font-size: 16px;
+    font-family: sans-serif;
+  }
+
+  .left-col{
+      float:left;
+      width:65%;
+    }
+
+    .left-col p{
+      margin-bottom: 2em;
+      margin-top: 2em;
+      }
+
+    .right-col{
+      float: right;
+      width: 30%;
+    }
+
+    .right-col p{
+      margin-bottom: 2em;
+      margin-top: 2em;
+    }
+
+    h4{
+      margin-top: 2em;
+    }
+
+    .designpic{
+      width: 100%;
+      margin-top: 2em;
+    }
+
+    footer{
+      clear:both;
+    }
+
+
+
+    h5{
+      font-size: 16px;
+      font-weight: normal;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .cards{
+      flex-wrap: wrap;
+      display: flex;
+      margin-top: 3em;
+      margin-bottom: 3em;
+      font-family: sans-serif;
+      color: black;
+    }
+
+
+    .cards p{
+      margin-top: 1em;
+      margin-bottom: 5em;
+    }
+
+    .cards h3{
+      margin-top: 1em;
+    }
+
+    .card{
+      flex: 1 0 auto;
+      width:250px;
+      margin: 0 1em;
+    }
+
+
+    .responsive-img{
+      width: 100%;
+      height: 40%;
+      margin-top: 1em;
+    }
